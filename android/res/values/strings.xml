@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ミサワウィジェット</string>
+	<string name="widget_name">ミサワウィジェット</string>
+    <string name="menu_settings">Settings</string>
+    
+	<!-- action -->
+    <string name="action_start">jp.inook.misawaWidget.ACTION_START_MISAWA_WIDGET</string>
+    <string name="action_setting">jp.inook.misawaWidget.ACTION_SETTING_MISAWA_WIDGET</string>
+    <string name="action_change_text">jp.inook.misawaWidget.ACTION_CHANGE_MISAWA_WIDGET</string>
+    <string name="action_open">jp.inook.misawaWidget.ACTION_OPEN_MISAWA_WIDGET</string>
+    <string name="action_copy">jp.inook.misawaWidget.ACTION_COPY_MISAWA_WIDGET</string>
+    <string name="action_change_interval">jp.inook.misawaWidget.ACTION_CHANGE_INTERVAL</string>
+    <!-- /action -->
+        
+    <!-- layout -->
+    <string name="default_phrase">惚れさせ男子の名言集</string>
+    <string name="misawa_image_description">icon</string>
+    <string name="open_copy_text">コピー</string>
+    <string name="open_browser_text">もっとミサワ</string>
+    <string name="setting_text">設定</string>
+    <!-- /layout -->
+    
+    <!-- toast -->
+    <string name="finish_copy">コピー成功</string>
+    <!-- /toast -->
+    
+    <!-- main activity -->
+    <string name="ma_title">ミサワウィジェット</string>
+    <string name="ma_about_title">What\'s ミサワウィジェット？</string>
+    <string name="ma_about">このアプリは「<a href="http://jigokuno.com/">地獄のミサワ</a>」の名言を表示するウィジェットアプリです。ホームスクリーンにウィジェットを追加して流れる名言を適宜活用して異性にモテまくるためのアプリです。ちなみに非公式です。</string>
+    <string name="ma_interval_title">名言の更新間隔</string>
+    <string name="ma_interval_description">※「更新しない」を選ぶと電源を入れた時や、名言をタップした時にだけ更新します。</string>
+    <string name="ma_author_title">こまった時は</string>
+    <string name="ma_author_tw"><a href="mailto:info.inook@gmail.com">info.inook@gmail.com</a></string>
+    <!-- /main activyty -->
+    
+</resources>

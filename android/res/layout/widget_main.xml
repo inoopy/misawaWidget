@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="120dp"
+	android:background="@drawable/widget_bg"
+	android:padding="5dip">
+	<TextView  
+		android:id="@+id/mwTextViewPhrase"
+		android:layout_width="fill_parent" 
+		android:layout_height="0dip" 
+		android:layout_weight="1"
+		android:gravity="left|center"
+		android:layout_marginRight="5dip"
+		android:text="@string/default_phrase"
+		android:textColor="#eeeeee"
+		android:textSize="14sp" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="0dip" >
+		<Button
+		    style="@style/OptionButton"
+			android:id="@+id/mwTextViewSetting"
+			android:layout_weight="1"
+			android:layout_marginRight="2dp"
+			android:text="@string/setting_text" />
+		<Button
+		    style="@style/OptionButton"
+			android:id="@+id/mwTextViewOpenBrowser"
+			android:layout_weight="1"
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp"
+			android:text="@string/open_browser_text" />
+		<Button
+		    style="@style/OptionButton"
+			android:id="@+id/mwTextViewCopy"
+			android:layout_weight="1"
+			android:layout_marginLeft="2dp"
+			android:text="@string/open_copy_text" />
+	</LinearLayout>
+	
+</LinearLayout>
